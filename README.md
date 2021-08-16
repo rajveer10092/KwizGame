@@ -5,7 +5,7 @@ Quiz Game gamified to increase the interaction in the educational and academic p
 Quiz Game gamified to increase the interaction in the educational and academic process. 
  > Technology: JavaScript, PHP, HTML/CSS, MySQL
  > Team Project: 4 members
- > Role: Backend and Database Developer
+ > Role: Frontend Developer
 
 ## Team Members Name :
  * Kushagra
