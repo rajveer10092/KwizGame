@@ -1,0 +1,207 @@
+/* ------------------------------------------------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html, body{
+    height: 100%;
+    font-family: 'Varela Round', sans-serif;
+}
+/* ------------------------------------------------------------------------------- */
+/* Main Content CSS */
+.container{
+    min-height: 100%;
+}
+.main{
+    overflow: auto;
+    padding-bottom: 100px;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: rgb(233, 233, 233);
+    padding: 5px ;
+    overflow: hidden;
+    border: none;
+    border-radius: 25px;
+}
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    border-radius: 30px;
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #706fd3, #8bc9e6);
+    border-radius: 30px;
+    transition: 0.5s ;
+}
+.input-group{
+    top: 130px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+.input-field{
+    width: 100%;
+    padding: 15px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    color: white;
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #706fd3, #8bc9e6);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box{
+    margin: 30px 10px 30px 0;   
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#login{
+    left: 50px;
+}
+#signup{
+    left: 450px ;
+}
+/* ------------------------------------------------------------------------------- */
+/* Header CSS */
+.header{
+    width: 100%;
+    height: 120px;
+    display: block;
+    background: linear-gradient(-135deg, #48dbfb, #686de0);
+}
+.inner-header{
+    width: 1200px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.logo-container{
+    height: 100%;
+    display: table;
+    float: left;
+}
+.logo-container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 32px;
+}
+.nav{
+    float: right;
+    height: 100%;
+}
+.nav a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+.nav a li{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-size: 16px;
+}
+.nav a:last-child{
+    padding-right: 0;
+}
+/* ------------------------------------------------------------------------------- */
+/* Footer CSS */
+.footer{
+    width: 100vx;
+    display: block;
+    overflow: hidden;
+    padding: 70px 0;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #48dbfb, #686de0);
+}
+.inner-footer{
+    display: block;
+    margin: 0 auto;
+    width: 1200px;
+    height: 100%;
+    padding-left: 130px;
+}
+.inner-footer .logo-container{
+    width: 35%;
+    float: left;
+    height: 100%;
+    display: block;
+}
+.inner-footer .logo-container img{
+    width: 120PX;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.inner-footer .footer-third{
+    width: calc(21.666666667% - 20px);
+    margin-right: 20px;
+    float: left;
+    height: 100%;
+}
+.inner-footer .footer-third:last-child{
+    float: right;
+    margin-right: 0;
+}
+.inner-footer .footer-third p{
+    color: white;
+    display: block;
+    width: 100%;
+    font-size: large;
+    margin-bottom: 20px;
+}
+.inner-footer .footer-third a{
+    color: white;
+    display: block;
+    font-weight: 200;
+    width: 100%;
+    padding-bottom: 20px;
+}
+/* ------------------------------------------------------------------------------- */

@@ -1,0 +1,61 @@
+/* ------------------------------------------------------------------------------- */
+/* Main content css */
+.container{
+    min-height: 100%;
+    background: linear-gradient(135deg, #48dbfb, #686de0);
+}
+.main{
+    overflow: auto;
+    padding-bottom: 50px;
+}
+.main h1{
+    font-size: 50px;
+    margin-top: 5rem;
+    margin-bottom: 7.5rem;
+    text-align: center;
+    color: white;
+}
+.team{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.team .t-mem{
+    background: linear-gradient(135deg, #5452f8, #ac7fff);
+    margin: 10px;
+    margin-bottom: 2rem;
+    width: 300px;
+    padding: 20px;
+    line-height: 25px;
+    color: white;
+    position: relative;
+    border-radius: 15px;
+}
+.team .t-mem h3{
+    color: white;
+    font-size: 25px;
+    margin-top: 2rem;
+}
+.team .t-mem p.role{
+    color: white;
+    font-size: 20px;
+    margin: 15px 0;
+}
+.team .t-mem .mem-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+}
+.team .t-mem .mem-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/* ------------------------------------------------------------------------------- */

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/l_style.css">
+    <title>Login / Sign Up</title>
+
+    <script src="js/jQuery.js"></script>
+
+    <script></script>
+</head>
+<body>
+    <div class="header">
+        <div class="inner-header">
+            <div class="logo-container">
+                <h1>KWIZ</span></h1>
+            </div>
+            <ul class="nav">
+                <a href="index.php"><li>Home</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="login_signup.html"><li>Login / Register</li></a>
+                <a href="team.html"><li>Team</li></a>
+            </ul>
+        </div>
+    </div>
+    <div  class="container">
+        <div class="main">
+            <div class="hero">
+                <div class="form-box">
+                    <div class="button-box">
+                        <div id="btn"></div>
+                        <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                        <button type="button" class="toggle-btn" onclick="signup()">Sign Up</button>
+                    </div>
+                    <form action="login.php" method="post" id="login" class="input-group">
+                        <input type="text" class="input-field" name="username" id="username" placeholder="Username" required>
+                        <input type="password" class="input-field" name="password" id="password" placeholder="Enter Password" required>
+                        <input type="checkbox" class="check-box" id="remme"><span>Remember Me!</span>
+                        <button type="submit" class="submit-btn">Log In</button>
+                    </form>
+                    <form action="signup.php" method="post" id="signup" class="input-group">
+                        <input type="text" class="input-field" name="username" id="username" placeholder="Username" required>
+                        <input type="text" class="input-field" name="fname" id="fname" placeholder="Name" required>
+                        <input type="email" class="input-field" name="email" id="email" placeholder="Email ID" required>
+                        <input type="password" class="input-field" name="pass" id="pass" placeholder="Enter Password" required>
+                        <input type="checkbox" class="check-box" id="agree_term"><span>I agree to the Terms and Condtions</span>
+                        <button type="submit" class="submit-btn">Sign Up</button>
+                    </form>
+                </div>               
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="inner-footer">
+            <div class="logo-container">
+                <img src="./images/logo.jpg" alt="">
+            </div>
+            <div class="footer-third">
+                <p>
+                    This website was made as a project towards Internet and Web Programming Course at VIT Bhopal.
+                    <br>
+                    Find the source code for this site on Github
+                </p>
+            </div>
+            <div class="footer-third">
+                <a href="#">Contact Us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Sitemap</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var x=document.getElementById("login");
+        var y=document.getElementById("signup");
+        var z=document.getElementById("btn");
+        function signup(){
+            x.style.left="-400px";
+            y.style.left="50px";
+            z.style.left="110px";
+        }
+        function login(){
+            x.style.left="50px";
+            y.style.left="450px";
+            z.style.left="0px";
+        }
+    </script>
+</body>
+</html>

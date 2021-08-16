@@ -1,0 +1,59 @@
+/* ------------------------------------------------------------------------------- */
+/* Main content css */
+.container{
+    min-height: 100%;
+    background: linear-gradient(135deg, #48dbfb, #686de0);
+}
+.main{
+    overflow: auto;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    padding: 0 3rem;
+    text-align: center;
+}
+.hd{
+    margin-top: 5rem;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.b-hd{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+.img-logo{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.img-logo img{
+    width: 200px;
+    height: auto;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.info{
+    font-size: 25px;
+    color: white;
+    line-height: 5rem;
+    margin-bottom: 5rem;
+}
+.go_to{
+    display: inline-block;
+    padding: 30px 50px;
+    background: linear-gradient(135deg, #ff5e57, #ffdd59);
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    border-radius: 35px;
+    transition: background .5s;
+    margin-bottom: 5rem;
+}
+.go_to:hover{
+    background: linear-gradient(135deg, #d14c45, #b8a041);
+} 
+/* ------------------------------------------------------------------------------- */
