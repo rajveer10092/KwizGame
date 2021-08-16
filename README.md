@@ -1,13 +1,13 @@
 # Kwiz-Game-Website
 Quiz Game gamified to increase the interaction in the educational and academic process.
 
-##Description: 
+## Description: 
 Quiz Game gamified to increase the interaction in the educational and academic process. 
  > Technology: JavaScript, PHP, HTML/CSS, MySQL
  > Team Project: 4 members
  > Role: Backend and Database Developer
 
-##Team Members Name :
+## Team Members Name :
  * Kushagra
  * Kartik Dhasmana
  * Nirlov Deb
